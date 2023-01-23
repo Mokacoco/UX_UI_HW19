@@ -1,0 +1,146 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+</style>
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+body {
+    margin: 0;
+  }
+  header {
+    background-color: #373738;
+    padding: 0px;
+
+  }
+  header ul {
+    float: right;
+    color: white;
+    font: 600;
+    font-style: bigger;
+    font-family: 'Outfit', Arial, sans-serif;
+    margin-top: 32px;
+    padding-right: 32px;
+  }
+
+  header li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  header p {
+    display: inline-block;
+
+  }
+  h1 {
+    font-family: 'Outfit', Arial, sans-serif;
+    font: weight 700px;;
+    font-style:normal;
+    font-size: 3em;
+    float: left;
+    padding-left: 25px;
+    margin-top: 50px;
+    }
+
+h2 {
+        font-family: 'Poppins', Arial, sans-serif;
+        font-weight: 400;
+        font-style:normal;
+        font-size: 2em;
+        text-align: right;
+        margin-top: 150px;
+        margin-bottom: 150px;
+     }
+  button {
+    padding: 12px;
+    background-color: #BBC7CE;
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 12px;
+    float: right;
+
+  }
+
+
+spacer {
+  height: 150px;
+  width: auto
+}
+
+p:hover, .card1:hover, .card2:hover, .card3:hover, button:hover {
+  background-color: #FFED98
+}
+
+.container {
+  height: 50vh;
+  display: flex;
+  gap: 25px;
+}
+
+[class ^="card"] {
+  width: 30%;
+  height: 160px;
+  background-color: #BBC7CE;
+  padding: 100px 15px;
+  border-radius: 15px;
+  align-item: center;
+  justify-content: center;
+}
+
+/* footer */
+  .content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #E8ECEF;
+    text-align: left;
+    
+  }
+  
+  footer {
+    background-color: #BBC7CE;
+    height: 150px;
+    padding: 5px;
+    color: white;
+  }
+
+  footer ul {
+  margin-top: 70px;
+  margin-left: 0px;
+  text-align: left;
+
+  }
+    footerWM {
+     position: fixed;
+     right: 0px; bottom: 0px;
+     width: 100px;
+     height:40px;
+     background-color:lightblue;
+     padding: 5px;
+  }
+
+    /*
+
+
+            border: 2px red solid;
+  footer li {
+    padding: 0px 7px;
+    border: 2px blue solid
+  }
+  .class i ul {
+    display: list-item;
+    padding: 0px 7px;
+    border: 2px blue solid
+  }
+
+
+<span style="font-size: 48px; color: Dodgerblue;">
+  <i class="fa-solid fa-camera"></i>
+</span>
+
+<span style="font-size: 3rem;">
+  <span style="color: Mediumslateblue;">
+  <i class="fa-solid fa-camera"></i>
+  </span>
+</span>
+
+     */
+g
