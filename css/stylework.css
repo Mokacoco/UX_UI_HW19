@@ -90,9 +90,6 @@ spacer {
   width: auto
 }
 
-button:hover {
-  background-color: #BBC7CE
-}
 
 .container {
   height: 50vh;
@@ -254,14 +251,3 @@ max-height: 100%;
   font-size: 18px;
   border-bottom: 5px solid #FF6200;
 }
-
-/*
-[class ^="card"] {
-  width: 30%;
-  height: 160px;
-  background-color: #BBC7CE;
-  padding: 100px 15px;
-  border-radius: 15px;
-  align-item: center;
-  justify-content: center;
-}*/
