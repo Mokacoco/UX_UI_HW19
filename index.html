@@ -16,44 +16,63 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 
-    <body>
-        <!--navigation is in header-->
-        <header>
-        <div class="inline-block">
-            <ul>
-                <li><a style="text-decoration:none" href=work.html>WORK</a></li>
-                <li>ABOUT</li>
-                <li>JOURNEY</li>
-                <li>EXTRA</li>
-            </ul>
+<body>
+  <div class="preloader"> <img class="preloader-icon" src="images/loadingCS.png">" alt="My Site Preloader"> </div>
+<!--navigation is in header-->
+   <header>
+     <div class="inline-block">
+      <ul>
+          <li><a style="text-decoration:none" href=work.html>WORK</a></li>
+          <li>ABOUT</li>
+          <li>JOURNEY</li>
+          <li>EXTRA</li>
+          </ul>
 <!--adding bits for nav bar-->
         <div class="logo">
         <img src= "images/Wordmark.png">
     </header>
     <!--main body-->
  <section class="content">
-        <h1>ciao, I'm Claire Szeto</h1>
-        <button>RESUME <i class="fa-solid fa-cog fa-spin"></i></button>
-        <h2>...and design is how I interact with the world.</h2>
+   <h1>ciao, I'm Claire Szeto</h1>
+       
+   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Résumé <i class="fa-solid fa-circle-down"></i>
+   </button>
+          
+        <h2>...and design is how I interact  <i class="fa-solid fa-cog fa-spin"></i> with the world.</h2>
         <div>
             <div class="spacer">  </div>
         </div>
-      
-        <div><p>My work is the development of my environment and myself as the catalyst for transformation of that environment.
-          I am humbled and guided by the process and strive to wrap discovery in gorgeous visual design.
+<div class="contentContainer">
+  <div class='row'>
+    <div class='column'>
+      <div class='mainText'>
+        My work is the development of my environment and myself as the catalyst for transformation of that environment.<br>
+        I am humbled and guided by the process and strive to wrap discovery in gorgeous visual design.
+      <br><br>
           My working style is collaborative, and I use my leadership powers to guide decision and move teams forward.
-          <br>
-          <br>
+    <br> <br>
         Trained classically in architecture, I have lived in the worlds of fashion design and graphic design for the last decades.
-        <br>
-        <br>
+    <br><br>
         Presently, re-tooled in UX and UI, I'm excited to leverage my previous design lives into helping users achieve optimal results.
-           </p></div>
+
+      </div>
+    </div>
+    <div class='column'>
+      <div class='circle'>
+        <img src="images/circle.png" alt="my photo">
+            <div class="photo"></div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+        <div><p>           </p></div>
         <div class="circle">
           
-         <img src="images/circle.png" alt="my photo">
-            <div class="photo">ciao</div>
-            
+                     
         </div>
 
     </section>
@@ -68,72 +87,12 @@
                 <li><i class="fa-regular fa-at"></i>claire@mokacoco.com</li>
                 <li><i class="fa-brands fa-linkedin"></i>www.linkedin.com/in/claireszeto</li>
                 <li><i class="fa-brands fa-squarespace"></i>www.mokacoco.com</li>
-            
-
             </ul>
         </footer>
-
-</body>
+<div class="loader" id="loader">
+          
+        </div>
+        
+<script src="js/index.js"></script>
+      </body>
 </html>
-
-
-
-     <!--<head>
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <title>Furniture Homepage</title>
-</head>
-<body>
-  <nav id="navBar">
-    <h1>Furniture</h1>
-    <div id="navigation">
-      <p class="highlight">New In</p>
-      <p>Furniture</p>
-      <p>Rest</p>
-      <p>Decoration</p>
-      <p>Outdoor</p>
-      <p>Magazine</p>
-      <p>Outlet</p>
-    </div>
-    <div class="icons">
-      <img src="images/user.png">
-      <img src="images/search.png">
-      <img src="images/shopping-bag.png">
-    </div>
-  </nav>
-  <section id="heroGrid">
-    <div id="featuredProduct" class="heroGridArea">
-      <div id="headline">
-        <h3 id="newCollection">New Collection</h3>
-        <h2>Chairs & Stools</h2>
-        <p>Armchair upholstered in synthetic leather. Powder coated steel legs.</p>
-      </div>
-    </div>
-    <div id="secondaryProduct" class="heroGridArea"></div>
-    <div id="CTA" class="heroGridArea">
-        <h4>Shop Now</h4>
-        <img src="images/arrow-right.png">
-      </div>
-  </section>
-  <div class="subHeading">
-      <h3>Shop By Category</h3>
-  </div>
-  <section id="categoryGrid">
-    <div id="bookcases" class="categoryGridArea">
-      <div class="heading">Bookcases</div>
-    </div>
-    <div id="bedroom" class="categoryGridArea">
-      <div class="heading">Bedroom</div>
-    </div>
-    <div id="couches" class="categoryGridArea">
-      <div class="heading">Couches</div>
-    </div>
-    <div id="patio" class="categoryGridArea">
-      <div class="heading">Patio</div>
-    </div>
-    <div id="desks" class="categoryGridArea">
-      <div class="heading">Desks</div>
-    </div>
-  </section>
-</body>
-</html>-->

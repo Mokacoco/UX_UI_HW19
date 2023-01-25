@@ -4,7 +4,7 @@ style
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 body {
-    margin: 0;
+
   }
   header {
     background-color: #373738;
@@ -68,41 +68,17 @@ h2 {
         margin-top: 150px;
         margin-bottom: 150px;
      }
-  button {
-    padding: 12px;
-    background-color: #FFED98;
-    color: black;
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 12px;
-    float: right;
-  }
+h3 {
+      font-family: 'Poppins', Arial, sans-serif;
+      font-weight: 500;
+      font-style:normal;
+      font-size: 2em;
+      text-align: right;
+   }
 
-p {
-  font-family: 'Poppins', Arial, sans-serif;
-  font-weight: 400;
-  font-style:normal;
-  font-size: 1.5em;
-  text-align: left;
-}
-spacer {
-  height: 150px;
-  width: auto
-}
-
-
-.container {
-  height: 50vh;
-  display: flex;
-  gap: 25px;
-}
-
-.circle {
-  float: right;
-}
 
 #projectGridArea {
-  margin: 5px 1%;
+  margin: 20,30;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -115,8 +91,8 @@ spacer {
   height: 150px;
 }
 #stuyCard {
-  grid-area: stuyCard;
-  background-image:url("../images/Stuy\ header.png");
+grid-area: stuyCard;
+background-image:url("../images/Stuy\ header.png");
 background-size: cover;
 max-height: 100%;
 }
@@ -124,35 +100,23 @@ max-height: 100%;
 #doeCard {
   grid-area: doeCard;
   background-image:url("../images/lightbulb\ header.png");
-  max-height: 100%;}
+  background-size: cover;max-height: 100%;}
 
 #uwCard {
   grid-area: uwCard;
   background-image:url("../images/umami\ header.png");
   max-height: 100%;}
 
-.projectGridArea {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 5px;
-  cursor: pointer;
-  display: grid;
-  align-content: end;
-}
-
-.heading {
-  background-color: rgba(238, 233, 233, 0.5);
-  font-family: 'Poppins', Arial, sans-serif;
-  font-weight: 600;
-  font-style:normal;
-  font-size: 1.5em;
-  padding: 15px;
-  height: 25px;
-  color: #23282B;
-  font-size: 18px;
-  border-top: 15px solid #FFE153;
-}
+  .heading {
+    text-align: right;
+      font-family: 'Poppins', Arial, sans-serif;
+      font-weight: 600;
+      font-style:normal;
+      font-size: 1.3em;     
+      color: black;
+      background-color: rgba(191, 200, 204, 0.5);
+    }
+    
 
 /* footer */
   
@@ -171,7 +135,8 @@ max-height: 100%;
   font-weight: 500;
   font-style:normal;
   font-size: 1em;
-  color: white;}
+  color: white;
+}
 
   li {
     margin: 10px 0;
@@ -184,70 +149,3 @@ max-height: 100%;
      height: 40px;
  }
 
-    /* copied
-
-
-     /* Category Grid CSS 
-
-.subHeading {
-  text-align: center;
-  border-bottom: 2px solid black;
-  width: 300px;
-  margin: 50px auto;
-}
-
-#categoryGrid {
-  margin: 0px 5%;
-  display: grid;
-  grid-template-rows: 300px 300px 300px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-  "bookcases bedroom patio"
-  "couches couches patio"
-  "desks desks desks"
-  ;
-}
-
-#bookcases {
-  grid-area: bookcases;
-  background-image: url("../images/bookcases@2x.png");
-
-}
-#bedroom {
-  grid-area: bedroom;
-  background-image: url("../images/beds@2x.png");
-}
-
-#couches {
-  grid-area: couches;
-  background-image: url("../images/couch@2x.png");
-}
-
-#patio {
-  grid-area: patio;
-  background-image: url("../images/patio@2x.png");
-}
-
-#desks {
-  grid-area: desks;
-  background-image: url("../images/desks@2x.png");
-}
-
-.categoryGridArea {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 5px;
-  cursor: pointer;
-  display: grid;
-  align-content: end;
-}
-
-.heading {
-  background-color: rgba(0,0,0,0.7);
-  padding: 15px;
-  height: 25px;
-  color: white;
-  font-size: 18px;
-  border-bottom: 5px solid #FF6200;
-}
